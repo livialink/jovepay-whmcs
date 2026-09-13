@@ -1,21 +1,25 @@
 {
-  "schema": "1.1",
+  "schema": "1.0",
   "type": "whmcs-gateways",
   "name": "jovepay",
-  "license": "proprietary",
+  "license": "gpl-2.0-or-later",
   "category": "payments",
   "description": {
-    "name": "JOVEpay",
-    "tagline": "Accept cryptocurrency payments via JOVEpay.",
-    "long": "JOVEpay is a third-party payment gateway that redirects customers to JOVEpay to complete payment. WHMCS receives IPN notifications when payments are confirmed.",
+    "name": "JOVEpay Crypto Payments",
+    "tagline": "Accept Bitcoin, Ethereum, stablecoins, and other cryptocurrencies on WHMCS invoices.",
+    "long": "JOVEpay is a third-party cryptocurrency payment gateway for WHMCS. Customers pay invoices on the JOVEpay hosted payment widget. WHMCS receives HMAC-signed Instant Payment Notifications and records invoice payments automatically. A JOVEpay merchant account is required.",
     "features": [
-      "Third-party checkout",
-      "HMAC-signed IPN callbacks",
-      "Partial payment handling"
+      "Accept crypto payments on WHMCS invoices",
+      "Hosted checkout with light and dark themes",
+      "Multi-language payment widget",
+      "HMAC-signed Instant Payment Notifications",
+      "Automatic invoice payment recording",
+      "Partial payment handling",
+      "Optional testnet mode"
     ]
   },
   "logo": {
-    "filename": "logo.png"
+    "filename": "logo.svg"
   },
   "support": {
     "homepage": "https://www.jovepay.com/",
